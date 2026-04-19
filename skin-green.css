@@ -1,0 +1,114 @@
+/*
+ * Skin: Fresh Green
+ * -----------------
+ */
+ .skin-green .main-header .navbar {
+  background-color: #4caf50; /* Brighter green */
+}
+.skin-green .main-header .navbar .nav > li > a {
+  color: #f8f9fa; /* Off-white for better readability */
+}
+.skin-green .main-header .navbar .nav > li > a:hover,
+.skin-green .main-header .navbar .nav > li > a:focus {
+  background: rgba(255, 255, 255, 0.2); /* Lighter hover effect */
+  color: #ffffff;
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #f8f9fa;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  color: #ffffff;
+  background: #388e3c; /* Slightly darker green */
+}
+@media (max-width: 767px) {
+  .skin-green .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a {
+    color: #212529; /* Dark gray text */
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a:hover {
+    background: #66bb6a; /* Light green for hover */
+  }
+}
+.skin-green .main-header .logo {
+  background-color: #388e3c; /* Complementary dark green */
+  color: #ffffff;
+}
+.skin-green .main-header .logo:hover {
+  background-color: #2e7d32; /* Slightly darker */
+}
+.skin-green .main-header li.user-header {
+  background-color: #4caf50; /* Bright green */
+}
+.skin-green .content-header {
+  background: #f1f8e9; /* Light green tint */
+}
+.skin-green .wrapper,
+.skin-green .main-sidebar,
+.skin-green .left-side {
+  background-color: #1b5e20; /* Rich dark green */
+}
+.skin-green .user-panel > .info,
+.skin-green .user-panel > .info > a {
+  color: #e8f5e9; /* Very light green for text */
+}
+.skin-green .sidebar-menu > li.header {
+  color: #a5d6a7; /* Light green text */
+  background: #2e7d32;
+}
+.skin-green .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-green .sidebar-menu > li:hover > a,
+.skin-green .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #388e3c; /* Hover and active state */
+  border-left-color: #4caf50;
+}
+.skin-green .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #1b5e20; /* Dark green */
+}
+.skin-green .sidebar a {
+  color: #c8e6c9; /* Light green text for links */
+}
+.skin-green .sidebar a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.skin-green .sidebar-menu .treeview-menu > li > a {
+  color: #a5d6a7;
+}
+.skin-green .sidebar-menu .treeview-menu > li.active > a,
+.skin-green .sidebar-menu .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-green .sidebar-form {
+  border-radius: 5px;
+  border: 1px solid #388e3c;
+  margin: 10px 10px;
+}
+.skin-green .sidebar-form input[type="text"],
+.skin-green .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #2e7d32;
+  border: 1px solid #388e3c;
+  height: 35px;
+}
+.skin-green .sidebar-form input[type="text"] {
+  color: #c8e6c9;
+  border-radius: 3px 0 0 3px;
+}
+.skin-green .sidebar-form input[type="text"]:focus {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+}
+.skin-green .sidebar-form .btn {
+  color: #ffffff;
+  background-color: #4caf50;
+  border-radius: 0 3px 3px 0;
+}
+.skin-green .sidebar-form .btn:hover {
+  background-color: #66bb6a; /* Lighter green hover */
+}
